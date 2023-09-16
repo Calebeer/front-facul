@@ -5,22 +5,78 @@
     <link rel="stylesheet" href="index.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Atividade</title>
 </head>
 <body>
-    <form action="pagina.html" method="POST"  >
-        <div class="tudo" >
-            <label>endereço: <input type="text" name="endereço" placeholder="seu endereço" ></label>
-        <label>cidade: <input type="text" name="cidade" placeholder="sua cidade" ></label>
+        <div>
+            <form action="" class="formulario" >
+                <div class="input1" >
+                    <label for="nome">Nome:</label>
+                    <input type="text" >
+                </div>
 
+                <div class="input1" >
+                    <label for="nome">Endereço:</label>
+                    <input type="text" >
+                </div>
 
-        <button id="botao_id" type="submit" > Enviar
-            <!-- <img src="https://png.pngtree.com/png-clipart/20220903/ourmid/pngtree-ok-button-png-image_6136482.png" width="50" height="50px" alt=""> -->
-        </button>
+                <div class="input1" >
+                    <label for="nome">Nro:</label>
+                    <input type="text" >
+                </div>
+
+                <div class="input1" >
+                    <label for="nome">Cidade:</label>
+                    <input type="text" >
+                </div>
+
+                <div class="input1" >
+                    <label for="nome">Estado:</label>
+                    <select name="opcoes" id="select">
+                        <option value="">Escolha uma estado</option>
+                        <option value="1">Maranhão</option>
+                        <option value="2">Amazonas</option>
+                     </select>
+                </div>
+
+                <div class="input1" >
+                    <label for="nome">Sexo:</label>
+                <select name="opcoes" id="select">
+                    <option value="">Escolha uma alternativa</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Feminino</option>
+                    <option value="outro">outro</option>
+                 </select>
+                </div>    
+                <div class="input1" >
+                    <label for="">Bens Pessoais:</label>
+                    <div class="inputPessoais" >
+                        <input type="text" class="inputBens"  >
+                         <p>Casa</p>
+                        <input type="text" class="inputBens" > 
+                        <p>Carro</p>
+                        <input type="text" class="inputBens" >
+                         <p>Moto</p>
+                    </div> 
+                </div>
+                    <div class="input1" >
+                        <label for="nome">Text Area</label>
+                        <input type="text" class="inputTxt" >
+                    </div>
+                    
+
+                <div class="botoes" >
+                    <button class="envio" >
+                        Enviar
+                    </button>
+                    <button class="limpar" >
+                        Limpar
+                    </button>
+                </div>
+                    
+                
+                 
+            </form>
         </div>
-        
-        
-
-    </form>
 </body>
 </html>
